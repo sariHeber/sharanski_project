@@ -1,5 +1,6 @@
 import { ExempleDetails } from "./exemple-details";
 import { SariDetails } from "./sari-component";
+import { TziviDetails } from "./tzivi-component";
 
 export const OurDetails = () => {
   return (
@@ -15,6 +16,7 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
+        <TziviDetails></TziviDetails>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
       </div>

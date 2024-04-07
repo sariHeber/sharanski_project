@@ -1,6 +1,10 @@
+import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
+import { SaraRuthDetails } from "./Sara-Ruth-conponent";
+import { NaomiDetails } from "./naomi-details";
 import { SariDetails } from "./sari-component";
-import { TziviDetails } from "./tzivi-component";
+import { ElishevaDetails } from "./elisheva_component"
+import { BatshevaKDetails } from "./BatshevaK-component"
 
 export const OurDetails = () => {
   return (
@@ -16,9 +20,13 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
-        <TziviDetails></TziviDetails>
+        <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <SaraRuthDetails></SaraRuthDetails>
+        <ElishevaDetails></ElishevaDetails>
+        <NaomiDetails></NaomiDetails>
+        <BatshevaKDetails></BatshevaKDetails>
       </div>
     </>
   );

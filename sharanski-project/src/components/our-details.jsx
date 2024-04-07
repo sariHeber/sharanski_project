@@ -19,7 +19,7 @@ export const OurDetails = () => {
         style={{
           display: "flex",
           flexDirection: "row",
-          gap: "8px",
+          gap: "9px",
           flexWrap: "wrap",
         }}
       >

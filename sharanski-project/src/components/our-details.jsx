@@ -3,6 +3,7 @@ import { ExempleDetails } from "./exemple-details";
 import { SaraRuthDetails } from "./Sara-Ruth-conponent";
 import { NaomiDetails } from "./naomi-details";
 import { RivkiDetails } from "./rivki-details";
+
 import { SariDetails } from "./sari-component";
 import { TehilaHDetails } from "./Tehilah_H_Component";
 import { ElishevaDetails } from "./elisheva_component"
@@ -32,6 +33,53 @@ export const OurDetails = () => {
         <NaomiDetails></NaomiDetails>
         <BatshevaKDetails></BatshevaKDetails>
         <RivkiDetails></RivkiDetails>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        import { Nechami_details } from "./nechami_details";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Nechami_details></Nechami_details>
       </div>
     </>
   );

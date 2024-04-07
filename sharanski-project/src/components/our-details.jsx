@@ -19,6 +19,7 @@ export const OurDetails = () => {
         <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <ElishevaDetails></ElishevaDetails>
         <NaomiDetails></NaomiDetails>
       </div>
     </>

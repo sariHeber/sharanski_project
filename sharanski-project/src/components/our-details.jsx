@@ -1,4 +1,5 @@
 import { ExempleDetails } from "./exemple-details";
+import { SariDetails } from "./sari-component";
 
 export const OurDetails = () => {
   return (
@@ -13,7 +14,9 @@ export const OurDetails = () => {
           flexWrap: "wrap",
         }}
       >
+        {/* כל אחת טוענת את הקומפוננטה שלה */}
         <ExempleDetails></ExempleDetails>
+        <SariDetails></SariDetails>
       </div>
     </>
   );

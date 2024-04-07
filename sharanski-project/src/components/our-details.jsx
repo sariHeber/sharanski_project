@@ -1,4 +1,5 @@
 import { ExempleDetails } from "./exemple-details";
+import { MiriDetails } from "./miri-component";
 import { SariDetails } from "./sari-component";
 
 export const OurDetails = () => {
@@ -17,6 +18,7 @@ export const OurDetails = () => {
         {/* כל אחת טוענת את הקומפוננטה שלה */}
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <MiriDetails></MiriDetails>
       </div>
     </>
   );

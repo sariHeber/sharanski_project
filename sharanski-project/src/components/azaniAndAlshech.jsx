@@ -1,4 +1,4 @@
-export const SariDetails = () => {
+export const azaniAndAlshech_Details = () => {
     return (
       <div
         style={{

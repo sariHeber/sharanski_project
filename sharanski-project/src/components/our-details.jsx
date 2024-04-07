@@ -16,6 +16,7 @@ export const OurDetails = () => {
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
         <ExempleDetails></ExempleDetails>
+        <azaniAndAlshech_Details></azaniAndAlshech_Details>
         <SariDetails></SariDetails>
       </div>
     </>

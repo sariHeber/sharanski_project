@@ -1,6 +1,8 @@
 import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
+import { NaomiDetails } from "./naomi-details";
 import { SariDetails } from "./sari-component";
+import { ElishevaDetails } from "./elisheva_component"
 
 export const OurDetails = () => {
   return (

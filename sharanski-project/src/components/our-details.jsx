@@ -4,6 +4,7 @@ import { SaraRuthDetails } from "./Sara-Ruth-conponent";
 import { NaomiDetails } from "./naomi-details";
 import { SariDetails } from "./sari-component";
 import { ElishevaDetails } from "./elisheva_component"
+import { BatshevaKDetails } from "./BatshevaK-component"
 
 export const OurDetails = () => {
   return (
@@ -25,6 +26,7 @@ export const OurDetails = () => {
         <SaraRuthDetails></SaraRuthDetails>
         <ElishevaDetails></ElishevaDetails>
         <NaomiDetails></NaomiDetails>
+        <BatshevaKDetails></BatshevaKDetails>
       </div>
     </>
   );

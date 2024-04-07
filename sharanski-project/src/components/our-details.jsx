@@ -5,6 +5,7 @@ import { SaraRuthDetails } from "./Sara-Ruth-conponent";
 import { NaomiDetails } from "./naomi-details";
 import { RivkiDetails } from "./rivki-details";
 import { SariDetails } from "./sari-component";
+import { azaniAndAlshech_Details } from "./azaniAndAlshech_Details";
 import { TamiDetails } from "./tami-component";
 import { TehilaHDetails } from "./Tehilah_H_Component";
 import { ElishevaDetails } from "./elisheva_component"
@@ -25,8 +26,10 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
+
         <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
+        <azaniAndAlshech_Details></azaniAndAlshech_Details>
         <SariDetails></SariDetails>
         <AyalaDetails></AyalaDetails>
         <TehilaHDetails></TehilaHDetails>

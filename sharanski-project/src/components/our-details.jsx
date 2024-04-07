@@ -17,6 +17,7 @@ export const OurDetails = () => {
         {/* כל אחת טוענת את הקומפוננטה שלה */}
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <NaomiDetails></NaomiDetails>
       </div>
     </>
   );

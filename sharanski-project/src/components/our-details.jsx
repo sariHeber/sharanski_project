@@ -4,6 +4,7 @@ import { SaraRuthDetails } from "./Sara-Ruth-conponent";
 import { NaomiDetails } from "./naomi-details";
 import { RivkiDetails } from "./rivki-details";
 import { SariDetails } from "./sari-component";
+import { TehilaHDetails } from "./Tehilah_H_Component";
 import { ElishevaDetails } from "./elisheva_component"
 import { BatshevaKDetails } from "./BatshevaK-component"
 import { RivkiDetails } from "./rivki-details";
@@ -25,6 +26,7 @@ export const OurDetails = () => {
         <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <TehilaHDetails></TehilaHDetails>
         <SaraRuthDetails></SaraRuthDetails>
         <ElishevaDetails></ElishevaDetails>
         <NaomiDetails></NaomiDetails>

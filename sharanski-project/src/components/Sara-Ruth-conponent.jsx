@@ -12,6 +12,7 @@ export const SaraRuthDetails = () => {
         <h1>phone: 055-673-7543</h1>
         <h1>mail: sr6737543@gmail.com</h1>
         <h1>date of birth: 19/11/2003 </h1>
+        <h1>Hello!!!!!!!!!!!!!!!!!!!!!!!</h1>
       </div>
     );
   };

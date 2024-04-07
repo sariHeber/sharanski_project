@@ -1,4 +1,5 @@
 import { ExempleDetails } from "./exemple-details";
+import { MalkysDetails } from "./malkysDetails";
 import { SariDetails } from "./sari-component";
 
 export const OurDetails = () => {
@@ -15,6 +16,7 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
+        <MalkysDetails></MalkysDetails>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
         <NaomiDetails></NaomiDetails>

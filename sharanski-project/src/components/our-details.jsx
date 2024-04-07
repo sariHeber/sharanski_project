@@ -1,5 +1,6 @@
 import { ExempleDetails } from "./exemple-details";
 import { SariDetails } from "./sari-component";
+import { azaniAndAlshech_Details } from "./azaniAndAlshech_Details";
 
 export const OurDetails = () => {
   return (

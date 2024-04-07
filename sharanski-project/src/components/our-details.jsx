@@ -1,3 +1,4 @@
+import { AyalaDetails } from "./ayala-component";
 import { ExempleDetails } from "./exemple-details";
 import { SariDetails } from "./sari-component";
 
@@ -17,6 +18,7 @@ export const OurDetails = () => {
         {/* כל אחת טוענת את הקומפוננטה שלה */}
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <AyalaDetails></AyalaDetails>
       </div>
     </>
   );

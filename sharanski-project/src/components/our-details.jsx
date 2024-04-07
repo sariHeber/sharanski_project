@@ -1,3 +1,4 @@
+import { AyalaDetails } from "./ayala-component";
 import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
 import { SaraRuthDetails } from "./Sara-Ruth-conponent";
@@ -27,6 +28,7 @@ export const OurDetails = () => {
         <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
+        <AyalaDetails></AyalaDetails>
         <TehilaHDetails></TehilaHDetails>
         <SaraRuthDetails></SaraRuthDetails>
         <ElishevaDetails></ElishevaDetails>

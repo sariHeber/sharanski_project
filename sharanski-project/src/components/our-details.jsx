@@ -1,6 +1,15 @@
+import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
+import { SaraRuthDetails } from "./Sara-Ruth-conponent";
+import { NaomiDetails } from "./naomi-details";
+import { RivkiDetails } from "./rivki-details";
 import { SariDetails } from "./sari-component";
 import { azaniAndAlshech_Details } from "./azaniAndAlshech_Details";
+import { TamiDetails } from "./tami-component";
+import { TehilaHDetails } from "./Tehilah_H_Component";
+import { ElishevaDetails } from "./elisheva_component"
+import { BatshevaKDetails } from "./BatshevaK-component"
+import { RivkiDetails } from "./rivki-details";
 
 export const OurDetails = () => {
   return (
@@ -16,20 +25,18 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
-       
-       
-       
-       
-       
-       
 
-
-       
-       
-       
+        <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <azaniAndAlshech_Details></azaniAndAlshech_Details>
         <SariDetails></SariDetails>
+        <TehilaHDetails></TehilaHDetails>
+        <SaraRuthDetails></SaraRuthDetails>
+        <ElishevaDetails></ElishevaDetails>
+        <NaomiDetails></NaomiDetails>
+        <BatshevaKDetails></BatshevaKDetails>
+        <RivkiDetails></RivkiDetails>
+        <TamiDetails></TamiDetails>
       </div>
     </>
   );

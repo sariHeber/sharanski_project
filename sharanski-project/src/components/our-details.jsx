@@ -7,7 +7,6 @@ import { SariDetails } from "./sari-component";
 import { TamiDetails } from "./tami-component";
 import { ElishevaDetails } from "./elisheva_component"
 import { BatshevaKDetails } from "./BatshevaK-component"
-import { TamiDetails } from "./tami-component";
 import { RivkiDetails } from "./rivki-details";
 
 export const OurDetails = () => {
@@ -24,7 +23,6 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
-        <TamiDetails/>
         <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
@@ -32,8 +30,12 @@ export const OurDetails = () => {
         <ElishevaDetails></ElishevaDetails>
         <NaomiDetails></NaomiDetails>
         <BatshevaKDetails></BatshevaKDetails>
-        <TamiDetails></TamiDetails>
         <RivkiDetails></RivkiDetails>
+
+
+
+
+        <TamiDetails></TamiDetails>
       </div>
     </>
   );

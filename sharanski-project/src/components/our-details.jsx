@@ -2,9 +2,11 @@ import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
 import { SaraRuthDetails } from "./Sara-Ruth-conponent";
 import { NaomiDetails } from "./naomi-details";
+import { RivkiDetails } from "./rivki-details";
 import { SariDetails } from "./sari-component";
 import { ElishevaDetails } from "./elisheva_component"
 import { BatshevaKDetails } from "./BatshevaK-component"
+import { RivkiDetails } from "./rivki-details";
 
 export const OurDetails = () => {
   return (
@@ -27,6 +29,7 @@ export const OurDetails = () => {
         <ElishevaDetails></ElishevaDetails>
         <NaomiDetails></NaomiDetails>
         <BatshevaKDetails></BatshevaKDetails>
+        <RivkiDetails></RivkiDetails>
       </div>
     </>
   );

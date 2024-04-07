@@ -1,3 +1,4 @@
+import { Avigail } from "./avigail";
 import { ExempleDetails } from "./exemple-details";
 import { SariDetails } from "./sari-component";
 
@@ -15,6 +16,7 @@ export const OurDetails = () => {
         }}
       >
         {/* כל אחת טוענת את הקומפוננטה שלה */}
+        <Avigail></Avigail>
         <ExempleDetails></ExempleDetails>
         <SariDetails></SariDetails>
       </div>

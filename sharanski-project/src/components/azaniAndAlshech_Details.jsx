@@ -2,7 +2,7 @@ export const azaniAndAlshech_Details = () => {
     return (
       <div
         style={{
-          borderColor: "green",
+          borderColor: "yellow",
           borderWidth: "5px",
           borderStyle: "dotted",
         }}
